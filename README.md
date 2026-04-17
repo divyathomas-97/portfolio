@@ -4,16 +4,23 @@ A modern, responsive personal portfolio built using **Angular (v14–v21)** to s
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **View Portfolio:**
+https://divyathomas-97.github.io/portfolio/home
+
+---
+
 ## 🚀 Features
 
-* 🧭 **Standalone Components & Routing**
-* 🌙 **Dark / Light Theme Toggle**
-* 🎨 **Responsive UI (Angular Material)**
-* 📦 **Modular Architecture**
-* 🔄 **Dynamic Data (Signals & Services)**
-* 💼 **Projects Section with External Links**
-* 🧩 **Skills Categorization**
-* 📇 **Clean Contact Section**
+* 🧭 Standalone Components & Routing
+* 🌙 Dark / Light Theme Toggle
+* 🎨 Responsive UI (Angular Material)
+* 📦 Modular Architecture
+* 🔄 Dynamic Data (Signals & Services)
+* 💼 Projects Section with External Links
+* 🧩 Skills Categorization
+* 📇 Clean Contact Section
 
 ---
 
@@ -37,40 +44,15 @@ A modern, responsive personal portfolio built using **Angular (v14–v21)** to s
 
 ### Core Concepts
 
-* SPA (Single Page Application)
-* Lazy Loading
-* Route Guards
-* JWT Authentication
-* RBAC
+* SPA, Lazy Loading, Route Guards, RBAC, JWT Authentication
 
 ### API Integration
 
-* REST APIs
-* Angular HttpClient
+* REST APIs, Angular HttpClient
 
 ### Tools
 
-* Git & GitHub
-* Angular CLI
-* Node.js
-* VS Code
-
----
-
-## 📁 Project Structure
-
-```
-src/
- ├── app/
- │   ├── pages/
- │   │   ├── home/
- │   │   ├── projects/
- │   │   ├── skills/
- │   │   └── contact/
- │   ├── services/
- │   └── app.routes.ts
- ├── styles.css
-```
+* Git, GitHub, Angular CLI, Node.js, VS Code
 
 ---
 
@@ -78,81 +60,54 @@ src/
 
 ### 1. Employee Management System
 
-* Built a full-featured Angular application with CRUD operations
-* Implemented JWT authentication & role-based access control
-* Used lazy loading and optimized performance
+* CRUD operations with role-based access control
+* JWT authentication and optimized performance
 
 ### 2. User Form with Validation
 
-* Developed reactive forms with custom validators
-* Real-time validation and error handling
-* Improved user experience with dynamic feedback
+* Reactive forms with custom validation
+* Real-time error handling
 
 ### 3. Food Delivery App
 
-* Responsive UI for food ordering
-* Cart functionality and smooth UX
-* Built using Angular Material components
+* Responsive UI with cart functionality
+* Built using Angular Material
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
-# Navigate into project
-cd your-repo-name
-
-# Install dependencies
+git clone https://github.com/divyathomas-97/portfolio.git
+cd portfolio
 npm install
-
-# Run the application
 ng serve
-```
-
-Open:
-
-```
-http://localhost:4200/
 ```
 
 ---
 
 ## 🌙 Theme
 
-* Default: **Dark Mode**
-* Toggle available in the UI
+* Default: Dark Mode
+* Toggle available
 
 ---
 
 ## 📇 Contact
 
-* 📧 Email: [divyathomas508@gmail.com](mailto:divyathomas508@gmail.com)
-* 📱 Phone: +974 66033653
-* 🌍 Location: Qatar
+* 📧 [divyathomas508@gmail.com](mailto:divyathomas508@gmail.com)
+* 📱 +974 66033653
+* 🌍 Qatar
 
 ---
 
-## 🔗 Connect with Me
+## 🔗 Connect
 
 * GitHub: https://github.com/divyathomas-97
 * LinkedIn: https://www.linkedin.com/in/divya-thomas-210752192
 
 ---
 
-## 📌 Future Enhancements
+## ⭐ Note
 
-* Add animations & transitions
-* Project screenshots
-* Deployment (Firebase / Netlify)
-* Unit test coverage
-
----
-
-## ⭐ Acknowledgment
-
-This project is built to showcase my skills as an Angular developer and continuously improve with modern Angular features.
-
----
+This portfolio is continuously improving with modern Angular features and UI enhancements.
