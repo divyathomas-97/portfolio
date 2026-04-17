@@ -1,0 +1,17 @@
+<h2 class="title">Skills</h2>
+
+<div class="skills-container">
+  <div class="skill-card" *ngFor="let group of skills()">
+    
+    <!-- Category -->
+    <h3>{{ group.category }}</h3>
+
+    <!-- Items -->
+    <div class="chips">
+      <span class="chip" *ngFor="let item of group.items">
+        {{ item }}
+      </span>
+    </div>
+
+  </div>
+</div>

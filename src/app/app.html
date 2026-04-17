@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <span style="cursor: pointer;" routerLink="/home">Divya Thomas</span>
+  <span class="spacer"></span>
+
+  <a mat-button routerLink="/">Home</a>
+  <a mat-button routerLink="/projects">Projects</a>
+  <a mat-button routerLink="/skills">Skills</a>
+  <a mat-button routerLink="/contact">Contact</a>
+
+  <button mat-icon-button (click)="toggleTheme()">
+    <mat-icon>{{ darkMode() ? 'light_mode' : 'dark_mode' }}</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

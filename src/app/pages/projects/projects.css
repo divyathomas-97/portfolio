@@ -1,0 +1,48 @@
+.title {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Icon */
+.icon {
+  font-size: 25px;
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+/* DARK MODE */
+.dark-theme .mat-mdc-card,
+.dark-theme .card {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .card h3,
+.dark-theme .card p,
+.dark-theme .card small {
+  color: #ffffff !important;
+}
+
+.dark-theme .icon {
+  color: #90caf9;
+}

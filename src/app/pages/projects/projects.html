@@ -1,0 +1,15 @@
+<h2 class="title">Projects</h2>
+
+<div class="grid">
+  <mat-card class="card"
+            *ngFor="let p of projects()"
+            (click)="openLink(p.link)">
+
+    <mat-icon class="icon">code</mat-icon>
+
+    <h3>{{ p.title }}</h3>
+    <p>{{ p.desc }}</p>
+    <small>{{ p.tech }}</small>
+
+  </mat-card>
+</div>

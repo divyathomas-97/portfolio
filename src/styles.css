@@ -1,0 +1,97 @@
+/* ================= DARK THEME ================= */
+.dark-theme {
+  background: #121212;
+  color: #ffffff;
+}
+
+/* Fix ALL text */
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme p,
+.dark-theme span,
+.dark-theme a {
+  color: #ffffff;
+}
+
+/* ================= MATERIAL FIX (IMPORTANT) ================= */
+
+/* Fix mat-card */
+.dark-theme .mat-mdc-card {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* Fix your custom cards */
+.dark-theme .card {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* Fix text inside cards */
+.dark-theme .card h3,
+.dark-theme .card p,
+.dark-theme .card small {
+  color: #ffffff !important;
+}
+
+/* Toolbar */
+.dark-theme .mat-toolbar {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* Buttons */
+.dark-theme .mat-mdc-button,
+.dark-theme .mat-mdc-raised-button {
+  color: #ffffff !important;
+}
+
+/* Icons */
+.dark-theme .mat-icon {
+  color: #90caf9 !important;
+}
+
+/* ================= SKILLS ================= */
+.dark-theme .skill {
+  background: #90caf9;
+  color: #000;
+}
+
+/* ================= CONTACT ================= */
+.dark-theme .contact-card {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+/* ================= LIGHT THEME ================= */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(100deg, #5594e1, #9fa2a5);
+}
+
+
+/* ================= SKILLS DARK MODE ================= */
+
+.dark-theme .skill-card {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .skill-card h3 {
+  color: #90caf9 !important;
+}
+
+.dark-theme .chip {
+  background: #90caf9 !important;
+  color: #000 !important;
+}
+
+
+/* ================= HOME DARK MODE ================= */
+
+.dark-theme .cta {
+  background: #1e1e1e !important;
+  color: #ffffff !important;
+}
