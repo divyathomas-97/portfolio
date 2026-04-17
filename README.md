@@ -1,59 +1,158 @@
-# MyFirstApp
+# 🌐 Angular Developer Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+A modern, responsive personal portfolio built using **Angular (v14–v21)** to showcase my skills, projects, and experience as a frontend developer.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
+
+* 🧭 **Standalone Components & Routing**
+* 🌙 **Dark / Light Theme Toggle**
+* 🎨 **Responsive UI (Angular Material)**
+* 📦 **Modular Architecture**
+* 🔄 **Dynamic Data (Signals & Services)**
+* 💼 **Projects Section with External Links**
+* 🧩 **Skills Categorization**
+* 📇 **Clean Contact Section**
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Angular (v14–v21)
+* TypeScript
+* HTML5, CSS3, SCSS
+
+### UI & Design
+
+* Angular Material
+* Responsive Design (Flexbox & Grid)
+
+### State Management
+
+* RxJS
+* Angular Signals
+
+### Core Concepts
+
+* SPA (Single Page Application)
+* Lazy Loading
+* Route Guards
+* JWT Authentication
+* RBAC
+
+### API Integration
+
+* REST APIs
+* Angular HttpClient
+
+### Tools
+
+* Git & GitHub
+* Angular CLI
+* Node.js
+* VS Code
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── app/
+ │   ├── pages/
+ │   │   ├── home/
+ │   │   ├── projects/
+ │   │   ├── skills/
+ │   │   └── contact/
+ │   ├── services/
+ │   └── app.routes.ts
+ ├── styles.css
+```
+
+---
+
+## 💼 Projects
+
+### 1. Employee Management System
+
+* Built a full-featured Angular application with CRUD operations
+* Implemented JWT authentication & role-based access control
+* Used lazy loading and optimized performance
+
+### 2. User Form with Validation
+
+* Developed reactive forms with custom validators
+* Real-time validation and error handling
+* Improved user experience with dynamic feedback
+
+### 3. Food Delivery App
+
+* Responsive UI for food ordering
+* Cart functionality and smooth UX
+* Built using Angular Material components
+
+---
+
+## ⚙️ Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into project
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run the application
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🌙 Theme
 
-## Building
+* Default: **Dark Mode**
+* Toggle available in the UI
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 📇 Contact
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+* 📧 Email: [divyathomas508@gmail.com](mailto:divyathomas508@gmail.com)
+* 📱 Phone: +974 66033653
+* 🌍 Location: Qatar
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 🔗 Connect with Me
 
-```bash
-ng test
-```
+* GitHub: https://github.com/divyathomas-97
+* LinkedIn: https://www.linkedin.com/in/divya-thomas-210752192
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📌 Future Enhancements
 
-```bash
-ng e2e
-```
+* Add animations & transitions
+* Project screenshots
+* Deployment (Firebase / Netlify)
+* Unit test coverage
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## ⭐ Acknowledgment
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is built to showcase my skills as an Angular developer and continuously improve with modern Angular features.
+
+---
