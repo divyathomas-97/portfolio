@@ -13,7 +13,7 @@ export class ProjectsService {
       title: 'User Form with Validation',
       desc: 'Developed reactive forms with custom validators, real-time validation, and error handling. Ensured robust user input handling and improved UX.',
       tech: 'Angular, Reactive Forms',
-      link: 'https://divyathomas-97.github.io/userform/'
+      link: 'https://divyathomas-97.github.io/UserForm/'
     },
     {
       title: 'Food Delivery App',
